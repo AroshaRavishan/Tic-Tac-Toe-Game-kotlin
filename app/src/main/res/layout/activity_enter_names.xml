@@ -1,0 +1,30 @@
+<!-- activity_enter_names.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/playerXName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player X Name"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/playerOName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player O Name"
+        android:layout_below="@id/playerXName"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/startGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playerOName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Start Game" />
+
+</RelativeLayout>
